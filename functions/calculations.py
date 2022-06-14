@@ -7,6 +7,8 @@ def calc(op, num1, num2):
         result = num1 / num2
     elif op == 'subtract':
         result = num1 - num2
+    elif op == 'add':
+        result = num1 + num2
 
     return int(result)
 
